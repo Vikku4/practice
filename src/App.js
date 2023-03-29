@@ -24,10 +24,6 @@ export default function App() {
       // alert("enter email")
       document.getElementById('email').style.display = 'block';
     }
-    else{
-      document.getElementById('email').style.display = 'none';
-
-    }
     if (!passwordstatus) {
       // alert("enter valid password")
       document.getElementById('password').style.display = 'block';
