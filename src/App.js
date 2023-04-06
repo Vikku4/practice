@@ -10,7 +10,7 @@ export default function App() {
 
   function emailtest(value) {
     if ((/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value)) || (/^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/.test(value))) {
-      setemailstatus(true)
+      setemailstatus(true) 
     }
 
   }
