@@ -49,7 +49,7 @@ export default function App() {
       <input type='text' placeholder='First name'  onChange={(e) => setfname(e.target.value)} ></input>  <label id='fname' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter your first name</label><br></br>
       <input type='text' placeholder='Last name' onChange={(e) => setlname(e.target.value)} ></input><label id='lname' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter your last name</label><br></br>
       <input type='text' placeholder='Email / Phonenumber' onChange={(e) => emailtest(e.target.value)}></input><label id='email' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter your email/phonenumber</label><br></br>
-      <input type='password' placeholder='Create Password (have special characters)' onChange={(e) => passwordtest(e.target.value)}></input><label id='password' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter Valid Password</label><label id='password' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter valid password</label><br></br>
+      <input type='password' placeholder='Create Password (should have special characters)' onChange={(e) => passwordtest(e.target.value)}></input><label id='password' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter Valid Password</label><label id='password' style={{ display: "none", fontSize: '12px', color: 'red' }}>*Enter valid password</label><br></br>
       <button className='but' onClick={() => validate()}>SUBMIT</button>
       </div>
     </div>
